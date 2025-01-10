@@ -86,6 +86,6 @@ def pregunta_01():
     plt.tight_layout()
     #plt.savefig(r"C:/Users/Olga/Documents/GitHub/2024-2-LAB-07-matplotlib-news-plot-Paolabustos0510/files/plots/news.png")
     plt.savefig(os.path.join(os.path.dirname(__file__), "../files/plots/news.png"))
-pregunta_01()
+
  
  

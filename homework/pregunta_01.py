@@ -56,7 +56,7 @@ def pregunta_01():
 
     # Cargar datos
     #df = pd.read_csv(r"C:/Users/Olga/Documents/GitHub/2024-2-LAB-07-matplotlib-news-plot-Paolabustos0510/files/input/news.csv", index_col=0)
-    df = pd.read_csv(os.path.join(os.path.dirname(__file__), "../files/input/news.csv"))
+    df = pd.read_csv(os.path.join(os.path.dirname(__file__), "../files/input/news.csv"), index_col=0)
     # Graficar líneas
     for col in df.columns:
         plt.plot(
